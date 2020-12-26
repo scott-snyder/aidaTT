@@ -18,7 +18,7 @@ namespace aidaTT
 
     if( surf->type().isZCylinder() ){
 
-      return dynamic_cast<const dd4hep::rec::ICylinder*>(surf)->radius() ;
+      return dynamic_cast<const dd4hep::rec::ICylinder&>(*surf).radius() ;
 
     } else if( surf->type().isZPlane() ){  
 
