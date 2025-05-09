@@ -7,7 +7,7 @@ INCLUDE(CheckCXXCompilerFlag)
 SET(COMPILER_FLAGS -Wall -Wextra -Wshadow -Weffc++ -pedantic -Wno-long-long -Wuninitialized)
 
 IF( NOT APPLE )
- LIST( APPEND COMPILER_FLAGS -Wl,-no-undefined )
+  add_link_options ("LINKER:-no-undefined")
 ENDIF()
 
 
