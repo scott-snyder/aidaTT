@@ -1,0 +1,9 @@
+Bottom: 1110662e280c3d57929df85aa30798589c00890e
+Top:    1110662e280c3d57929df85aa30798589c00890e
+Author: sss <sss@karma>
+Date:   2025-05-09 11:43:57 -0400
+
+cmake fix
+
+Fix setting of linker flags.
+Avoids warnings from clang.
