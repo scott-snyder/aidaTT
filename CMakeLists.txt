@@ -1,5 +1,9 @@
 # #require a certain version
-CMAKE_MINIMUM_REQUIRED( VERSION 2.8.2 )
+CMAKE_MINIMUM_REQUIRED( VERSION 3.10 )
+
+cmake_policy(SET CMP0167 NEW)
+cmake_policy(SET CMP0144 NEW)
+cmake_policy(SET CMP0074 NEW)
 
 # declare the project name
 PROJECT(aidaTT)
