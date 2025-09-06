@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "e9c043881604ca3057ecebafa10d51403f96965a",
-  "head": "f5d1598d15e364c6098630ae5957e8a0897b4070",
+  "prev": "bcd8cf3176bc65f9bb16608f4ce6ce1555be9f97",
+  "head": "1fa5641c90ddbce26ab57066e5650dbcea9a74f9",
   "applied": [
     "cmake",
     "cmakewarn",
-    "nosystem"
+    "nosystem",
+    "noeffc"
   ],
   "unapplied": [],
   "hidden": [],
@@ -15,6 +16,9 @@
     },
     "cmakewarn": {
       "oid": "34f743880e6a36c8223afff8769ec706584ca9ac"
+    },
+    "noeffc": {
+      "oid": "1fa5641c90ddbce26ab57066e5650dbcea9a74f9"
     },
     "nosystem": {
       "oid": "f5d1598d15e364c6098630ae5957e8a0897b4070"
