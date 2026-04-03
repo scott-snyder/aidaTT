@@ -12,7 +12,7 @@
 
 // GBL:
 #include "GblTrajectory.h"
-#include "MilleBinary.h"
+#include "Mille/MilleRecord.h"
 
 
 /* This is an interface class to the general broken lines package by C. Kleinwort.
@@ -97,7 +97,7 @@ namespace aidaTT
     
     mutable ResMap _theResults{};
 
-    gbl::MilleBinary* _milleBinary {};
+    std::unique_ptr<Mille::MilleRecord> _milleRecord {};
 
   };
 
