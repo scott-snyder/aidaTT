@@ -1,0 +1,6 @@
+Bottom: 0daa2c7bf426785bd0e7677586611c99d5f9aafd
+Top:    0daa2c7bf426785bd0e7677586611c99d5f9aafd
+Author: sss <sss@karma>
+Date:   2026-04-03 13:45:37 -0400
+
+Fix build against new gbl version.

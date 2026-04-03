@@ -1,18 +1,22 @@
 {
   "version": 5,
-  "prev": "ec7883ecd91dbb336ed10d9bf1f731a9de32d21a",
-  "head": "70888f66d2f362ff49be22e61b10ce9e42dd32c7",
+  "prev": "d5dc0c058bd063bf0dd256bc8875b0da9cca3508",
+  "head": "093b8f30ce10ad7592818767fe1c3ab0320874b1",
   "applied": [
     "cmake",
     "cmakewarn",
     "nosystem",
-    "noeffc"
+    "noeffc",
+    "cmakegbl"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "cmake": {
       "oid": "d90fe9fb54dc684ba6ac15fd1f7170d9f94f8743"
+    },
+    "cmakegbl": {
+      "oid": "093b8f30ce10ad7592818767fe1c3ab0320874b1"
     },
     "cmakewarn": {
       "oid": "ee0ba770ac315a4d080083c0099342deb88e88a1"
