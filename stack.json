@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "6b8d5f75650ebb60706a8b3b1bfd5fb403241261",
-  "head": "a37c513a95e12fc8d4dccb74b8d405d08508ba87",
+  "prev": "e71d678552c981036557ec0512609a350786e104",
+  "head": "bf91e2f579222581624ff06539d8c8e9c877b702",
   "applied": [
     "cmake",
     "cmakewarn",
     "nosystem",
     "noeffc",
-    "cmakegbl"
+    "cmakegbl",
+    "eigen3"
   ],
   "unapplied": [],
   "hidden": [],
@@ -20,6 +21,9 @@
     },
     "cmakewarn": {
       "oid": "ee0ba770ac315a4d080083c0099342deb88e88a1"
+    },
+    "eigen3": {
+      "oid": "bf91e2f579222581624ff06539d8c8e9c877b702"
     },
     "noeffc": {
       "oid": "70888f66d2f362ff49be22e61b10ce9e42dd32c7"

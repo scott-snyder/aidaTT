@@ -1,0 +1,7 @@
+Bottom: 501d7d45c61b9bfe04f62b9369ae2b46d012d727
+Top:    501d7d45c61b9bfe04f62b9369ae2b46d012d727
+Author: sss <sss@karma>
+Date:   2026-06-17 13:16:08 -0400
+
+Newer eigen versions move the version number to a different file.
+Update.
